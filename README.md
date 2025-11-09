@@ -2,11 +2,6 @@
 
 This repository focuses on detecting and tracking UAE vehicle license plates in videos. It uses a YOLO-based detector (`models/uae_plate_detector.pt`) and overlays plate bounding ellipses and class labels on each frame, producing an annotated output video.
 
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-2.png)
 
 ## Overview
 - Detects UAE plate characters and styles using a trained YOLO model.
