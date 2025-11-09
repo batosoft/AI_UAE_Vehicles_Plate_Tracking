@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+*.eggs/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/project tooling
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+tmp/
+
+# Project-specific artifacts
+input_videos/
+output_videos/
+stubs/
+
+# Model weights and large binaries
+models/*.pt
+yolov5l6u.pt
+
+# Generated media
+*.avi
+*.mp4
+*.jpg
+*.png
